@@ -1,0 +1,3 @@
+rootProject.name = 'Denary_computing_limited'
+
+include ':app'
