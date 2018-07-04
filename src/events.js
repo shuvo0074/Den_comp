@@ -57,7 +57,6 @@ export default class events extends Component<Props> {
         W: Dimensions.get('window').width
       });
       })
-      console.log(this.state.uname)
 
       db.transaction((tx) => {
         tx.executeSql('SELECT * FROM events', [], (tx, results) => {

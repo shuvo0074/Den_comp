@@ -12,21 +12,26 @@ const initialLayout = {
   height: 0,
   width: Dimensions.get('window').width,
 };
-const FirstRoute = () => 
-<View style={[ styles.container, { backgroundColor: 'white' } ]} >
+const FirstRoute = () => <View style={[ styles.container, { backgroundColor: 'white' } ]} >
+<General/>
 </View>
 
 const SecondRoute = () => <View style={[ styles.container, { backgroundColor: 'red' } ]} >
+  <Courses/>
 </View>
+
 const ThirdRoute = () => 
 <View style={[ styles.container, { backgroundColor: 'white' } ]} >
 <Events/>
 </View>
+
 const FourthRoute = () => 
 <View style={[ styles.container, { backgroundColor: 'red' } ]} >
+<Developments/>
 </View>
 const FifthRoute = () => 
 <View style={[ styles.container, { backgroundColor: 'white' } ]} >
+  <Projects/>
 </View>
 const SixthRoute = () => 
 <View style={[ styles.container, { backgroundColor: 'red' } ]} >
