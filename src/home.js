@@ -20,6 +20,7 @@ const SecondRoute = () => <View style={[ styles.container, { backgroundColor: 'r
 </View>
 const ThirdRoute = () => 
 <View style={[ styles.container, { backgroundColor: 'white' } ]} >
+<Events/>
 </View>
 const FourthRoute = () => 
 <View style={[ styles.container, { backgroundColor: 'red' } ]} >
